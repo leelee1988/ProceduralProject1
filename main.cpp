@@ -127,9 +127,9 @@ int displayMenuAndChooseChoice() {
     std::cout << "4) Employee Account\n";
     std::cout << "5) Add Employee Account\n";
     std::cout << "6) Exit Program\n";
-    int userMenuChoice;
-    std::cin >> userMenuChoice;
-    return userMenuChoice;
+    int userChoice;
+    std::cin >> userChoice;
+    return userChoice;
 }
 
 void produceItems(std::vector<std::string> &productLineManufacturers, std::vector<std::string> &productLineNames,
