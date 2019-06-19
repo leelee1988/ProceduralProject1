@@ -7,10 +7,9 @@ Management would like the production tracking to be more automated so the worker
 In addition to the ability to record production, the software also needs the ability to add to the product line (the catalog of products that are able to be produced).<br />
 
 What is the project?<br />
-Who made it? I made this project indepently but with some help of a classmate.<br />
+I made this project indepently but with some help of a classmate.<br />
 I made this in the summer of 2019, for a Programming Methodology class where I was learning c++ for the first time.<br />
-This class was made in class but was also worked on at home becasue this was an assignment.<br />
-Note for school project: this may be the only thing someone visiting your page reads. Try to mae a great impresison. Make someone want to hire you. This section will also be useful to you in the future to remind you about the project. 
+This project was made in class but was also worked on at home becasue this was an assignment.<br />
 
 ## Demonstration
 
