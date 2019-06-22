@@ -135,10 +135,10 @@ int main() {
         if(logged_in == false){
             //login on startup
             logged_in = employee_login(employee_accounts_vector,employee_test_vector);}
-        if (logged_in) {
+        if (logged_in == false) {
             user_menu_choice = display_menu_and_get_choice();
         }
-        if (logged_in == true) {
+        if (logged_in == false) {
             switch (user_menu_choice) {
                 //Product Items
                 case 1: {
