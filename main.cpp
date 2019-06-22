@@ -125,16 +125,12 @@ int main() {
     //Welcome greeting
     std::cout << "   Production Line Tracker   " << std::endl;
     std::cout << "*****************************" << std::endl;
-    std::cout << "Please log in to continue..." << std::endl;
     bool logged_in = false;
 
     //Initialize for menu start
     int user_menu_choice;
     bool continue_program = true;
     while (continue_program) {
-        if(logged_in == false){
-            //login on startup
-            logged_in = employee_login(employee_accounts_vector,employee_test_vector);}
         if (logged_in == false) {
             user_menu_choice = display_menu_and_get_choice();
         }
